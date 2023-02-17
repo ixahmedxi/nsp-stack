@@ -1,9 +1,9 @@
+import { env } from '@acme/env';
 import { prisma } from '@acme/server/db';
 import { PrismaAdapter } from '@next-auth/prisma-adapter';
 import type { GetServerSidePropsContext } from 'next';
 import { getServerSession, type DefaultSession, type NextAuthOptions } from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
-import { env } from '../../../../env.mjs';
 
 declare module 'next-auth' {
   interface Session extends DefaultSession {

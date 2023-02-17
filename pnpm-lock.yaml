@@ -98,6 +98,7 @@ specifiers:
   vite-plugin-eslint: ^1.8.1
   vite-tsconfig-paths: ^4.0.2
   vitest: ^0.28.5
+  znv: ^0.3.2
   zod: ^3.20.6
 
 dependencies:
@@ -116,6 +117,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   superjson: 1.12.2
   tslib: 2.5.0
+  znv: 0.3.2_zod@3.20.6
   zod: 3.20.6
 
 devDependencies:
@@ -16891,6 +16893,15 @@ packages:
     optionalDependencies:
       commander: 9.5.0
     dev: true
+
+  /znv/0.3.2_zod@3.20.6:
+    resolution: {integrity: sha512-dyQ2gfDe5RgEL7hKue1dFswmy4vzb/SRnLLRHaHNm39JteKstFs47I0nevlEa3oOWNMJ7XB4V1l/IdcLezPwoA==}
+    peerDependencies:
+      zod: ^3.11.6
+    dependencies:
+      colorette: 2.0.19
+      zod: 3.20.6
+    dev: false
 
   /zod/3.20.6:
     resolution: {integrity: sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==}

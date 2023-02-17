@@ -1,8 +1,8 @@
+import { env } from '@acme/env';
 import { httpBatchLink, loggerLink } from '@trpc/client';
 import { createTRPCNext } from '@trpc/next';
 import { type inferRouterInputs, type inferRouterOutputs } from '@trpc/server';
 import superjson from 'superjson';
-import { env } from '../../../../env.mjs';
 
 import { type AppRouter } from '@acme/server';
 import { getBaseUrl } from './getBaseUrl';

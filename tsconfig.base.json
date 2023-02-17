@@ -21,7 +21,8 @@
       "@acme/server/auth": ["packages/server/auth/src/index.ts"],
       "@acme/server/db": ["packages/server/db/src/index.ts"],
       "@acme/server/trpc": ["packages/server/trpc/src/index.ts"],
-      "@acme/shared/client": ["packages/shared/client/src/index.ts"]
+      "@acme/shared/client": ["packages/shared/client/src/index.ts"],
+      "@acme/env": ["packages/env/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
