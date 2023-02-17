@@ -1,3 +1,8 @@
+/*
+ * This file is part of the t3-app project.
+ * You can find the project here: https://github.com/t3-oss/create-t3-app
+ */
+
 import { z } from 'zod';
 
 const server = z.object({
