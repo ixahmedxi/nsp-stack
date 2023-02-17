@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@acme/design-system": ["packages/design-system/src/index.ts"],
+      "@acme/server": ["packages/server/src/index.ts"],
+      "@acme/server/auth": ["packages/server/auth/src/index.ts"],
+      "@acme/server/db": ["packages/server/db/src/index.ts"],
+      "@acme/server/trpc": ["packages/server/trpc/src/index.ts"],
+      "@acme/shared/client": ["packages/shared/client/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

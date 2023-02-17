@@ -1,0 +1,22 @@
+#storybook-root {
+  min-height: 100vh;
+  display: flex;
+}
+
+.light_layout {
+  flex: 1;
+  background-color: white;
+  color: black;
+}
+
+.dark_layout {
+  flex: 1;
+  background-color: #18181b;
+  color: white;
+}
+
+.both_wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  devdb:
+    image: mysql:8.0
+    cap_add:
+      - SYS_NICE
+    restart: always
+    environment:
+      - MYSQL_DATABASE=db
+      - MYSQL_ROOT_PASSWORD=password
+    ports:
+      - '3306:3306'
+    volumes:
+      - devdb:/var/lib/mysql
+      - ./dbs/devdb/init.sql:/docker-entrypoint-initdb.d/init.sql
+volumes:
+  devdb:
+    driver: local

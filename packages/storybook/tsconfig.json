@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["vitest/globals", "mdx"]
+  },
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./.storybook/tsconfig.json"
+    }
+  ],
+  "extends": "../../tsconfig.base.json"
+}
